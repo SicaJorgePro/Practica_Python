@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "imagen": "🍎",
+    "nombre": "Manzana roja",
+    "importe": 220,
+    "stock": 50
+  },
+  {
+    "id": 2,
+    "imagen": "🍏",
+    "nombre": "Manzana verde",
+    "importe": 230,
+    "stock": 50
+  },
+  { "id": 3, "imagen": "🍐", "nombre": "Pera", "importe": 180, "stock": 50 },
+  { "id": 4, "imagen": "🍑", "nombre": "Durazno", "importe": 320, "stock": 50 },
+  { "id": 5, "imagen": "🍒", "nombre": "Cereza", "importe": 600, "stock": 50 },
+  { "id": 6, "imagen": "🍓", "nombre": "Fresa", "importe": 450, "stock": 50 },
+  { "id": 7, "imagen": "🍈", "nombre": "Melón", "importe": 350, "stock": 50 },
+  { "id": 8, "imagen": "🍉", "nombre": "Sandía", "importe": 200, "stock": 50 },
+  { "id": 9, "imagen": "🍊", "nombre": "Naranja", "importe": 180, "stock": 50 },
+  { "id": 10, "imagen": "🍋", "nombre": "Limón", "importe": 100, "stock": 50 },
+  {
+    "id": 11,
+    "imagen": "🍌",
+    "nombre": "Plátano",
+    "importe": 220,
+    "stock": 50
+  },
+  { "id": 12, "imagen": "🍍", "nombre": "Piña", "importe": 350, "stock": 50 },
+  { "id": 13, "imagen": "🍇", "nombre": "Uvas", "importe": 650, "stock": 50 },
+  { "id": 14, "imagen": "🥝", "nombre": "Kiwi", "importe": 280, "stock": 50 },
+  { "id": 15, "imagen": "🍅", "nombre": "Tomate", "importe": 140, "stock": 50 },
+  { "id": 16, "imagen": "🥥", "nombre": "Coco", "importe": 270, "stock": 50 }
+]
+
