@@ -8,29 +8,21 @@ def listar_frutas1():
     
     # # Definimos las columnas para la tabla
     encabezados = ["id", "imagen", "Nombre","importe", "stock"]
-    
-   # Ordenamos la lista de frutas por el campo 'nombre' sin diferenciar mayúsculas/minúsculas
-    frutas_ordenadas = sorted(frutas, key=lambda fruta: fruta["nombre"].lower())
-    
+
     # Extraemos los valores de cada fruta
     datos = [(fruta["id"], fruta["imagen"], fruta["nombre"], fruta["importe"], fruta["stock"]) for fruta in frutas]
-    
-    # # # Extraemos los valores de cada fruta ordenadas
-    # datos_ordenados = [(fruta["id"], fruta["imagen"], fruta["nombre"], fruta["importe"], fruta["stock"]) for fruta in frutas_ordenadas]
-    
+
     # imprimir con encabezados no ordenadas
     os.system('cls')
     print("LISTADO DE FRUTAS\n")
     print(tabulate(datos, headers=encabezados, tablefmt="keys"))
     input("\n\n\nPreccione enter par volver al menú")
-    
-    # """ mostrar la lista ordenadas"""
-    # print(tabulate(datos_ordenados, headers=encabezados, tablefmt="keys"))
-    
+
 def listar_frutas2():
             """Lista las frutas utilizando el archivo json."""
-            # 
+            # cargamos las frutas
             frutas2 = cargar_frutas()
+            
             #  Definimos las columnas para la tabla
             encabezados = ["id", "imagen", "Nombre","importe", "stock"]
             
